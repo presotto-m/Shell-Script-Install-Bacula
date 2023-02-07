@@ -23,8 +23,8 @@
 # web para facilitar o trabalho com os programas da Comunidade Bacula. 
 #
 # Informações que serão solicitadas na configuração via Web do Baculum
- Endereço padrão do Baculum WEB: http://localhost:9095
- Endereço padrão do Baculum API: http://localhost:9096
+# Endereço padrão do Baculum WEB: http://localhost:9095
+# Endereço padrão do Baculum API: http://localhost:9096
 # Usuário padrão: admin - Senha padrão: admin
 #
 # PRIMEIRA ETAPA: CONFIGURAR O BACULUM API: http://localhost:9096
@@ -34,20 +34,20 @@
 # 02. Step 2 - share the Bacula Catalog Database
 #	Do you want to setup and to share the Bacula Catalog Database access for this API instance?: 
 #	Select: Yes
-	Database type: MySQL
-	Database name: admin
-	Login: admin
-	Password: admin
-	IP address (or hostname): localhost
-	Port: 3306
+#	Database type: MySQL
+#	Database name: admin
+#	Login: admin
+#	Password: admin
+#	IP address (or hostname): localhost
+#	Port: 3306
 #	Connection test: <Test>
 #	<Next>
 # 03. Step 3 - share the Bacula Bconsole commands interface
 #	Do you want to setup and share the Bacula Bconsole interface to execute commands in this API instance?
 #	Select: Yes
-	Bconsole binary file path: /usr/sbin/bconsole
-	Bconsole admin config file path: /opt/bacula/etc/bconsole.conf
-	Use sudo: Yes
+#	Bconsole binary file path: /usr/sbin/bconsole
+#	Bconsole admin config file path: /opt/bacula/etc/bconsole.conf
+#	Use sudo: Yes
 #	Bconsole connection test: <Test>
 #	<Next>
 # 04. Step 4 - share the Bacula configuration interface
@@ -71,10 +71,10 @@
 #	<Test Configuration>
 #	<Next>
 # 05. Step 5 - authentication to AP
-	Use HTTP Basic authentication: Yes
-	Administration login: admin
-	Administration password: admin
-	Retype administration password: admin
+#	Use HTTP Basic authentication: Yes
+#	Administration login: admin
+#	Administration password: admin
+#	Retype administration password: admin
 #	<Next>
 # 06. @@Step 7 - Finish@@
 #	<save>
@@ -87,11 +87,11 @@
 #	Baculum web interface requires to add at least one Baculum API instance with shared Catalog access. Please add API instance.
 #		Add API host
 #			Protocol: HTTP
-			IP Address/Hostname: localhost
-			Port: 9096
+#			IP Address/Hostname: localhost
+#			Port: 9096
 #			Use HTTP Basic authentication: Yes
-			API Login: admin
-			API Password: admin
+#			API Login: admin
+#			API Password: admin
 #			API connection test: <Test>
 #		<Next>
 # 03. Step 3 - authentication params to Baculum Web pane
